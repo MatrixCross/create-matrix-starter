@@ -1,0 +1,21 @@
+[submodule "template-vue3-pcweb-starter"]
+	path = template-vue3-pcweb-starter
+	url = https://github.com/MatrixCross/Vue3-PCWeb-Starter.git
+[submodule "template-weapp-starter"]
+	path = template-weapp-starter
+	url = https://github.com/MatrixCross/Weapp-Starter.git
+[submodule "template-rollup-lib-starter"]
+	path = template-rollup-lib-starter
+	url = https://github.com/MatrixCross/Lib-Starter-Rollup.git
+[submodule "template-vue3-uniapp-starter"]
+	path = template-vue3-uniapp-starter
+	url = https://github.com/MatrixCross/Vue3-Uniapp-Starter.git
+[submodule "template-lib-rollup-starter"]
+	path = template-lib-rollup-starter
+	url = https://github.com/MatrixCross/Lib-Starter-Rollup.git
+[submodule "template-vue3-crx-starter"]
+	path = template-vue3-crx-starter
+	url = https://github.com/Wyatex/vue3-crx-starter.git
+[submodule "template-vue3-h5web-vant-starter"]
+	path = template-vue3-h5web-vant-starter
+	url = https://github.com/MatrixCross/Vue3-H5Web-Vant-Starter.git

@@ -1,0 +1,32 @@
+{
+  "name": "create-matrix-starter",
+  "version": "1.0.0",
+  "description": "快速创建项目初始模板cli",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js",
+    "template-*"
+  ],
+  "scripts": {
+    "release": "bumpp",
+    "update": "git submodule update --remote"
+  },
+  "bin": {
+    "create-matrix-starter": "index.js",
+    "cms": "index.js"
+  },
+  "keywords": ["cli","template","starter"],
+  "author": "Wyatex",
+  "license": "MIT",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "dependencies": {
+    "bumpp": "^9.1.0",
+    "dayjs": "^1.11.7",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2"
+  }
+}
