@@ -16,7 +16,11 @@
     "create-matrix-starter": "index.js",
     "cms": "index.js"
   },
-  "keywords": ["cli","template","starter"],
+  "keywords": [
+    "cli",
+    "template",
+    "starter"
+  ],
   "author": "Wyatex",
   "license": "MIT",
   "engines": {
