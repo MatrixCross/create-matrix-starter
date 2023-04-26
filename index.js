@@ -24,22 +24,22 @@ const FRAMEWORKS = [
     color: green,
     variants: [
       {
-        name: 'PcWeb',
+        name: 'PcWeb-NaiveUI',
         color: lightBlue,
-        dir: 'vue3-pcweb-starter',
+        dir: 'vue3-pcweb-naiveui-starter',
       },
       {
-        name: 'H5Web',
+        name: 'H5Web-VarletUI',
         color: lightBlue,
-        dir: 'vue3-h5web-starter',
+        dir: 'vue3-h5web-varlet-starter',
       },
       {
-        name: 'crx',
+        name: 'crx-NaiveUI',
         color: blue,
         dir: 'vue3-crx-starter',
       },
       {
-        name: 'Uniapp',
+        name: 'Uniapp-vkUview',
         color: yellow,
         dir: 'vue3-uniapp-starter',
       },

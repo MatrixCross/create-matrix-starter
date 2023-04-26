@@ -1,6 +1,3 @@
-[submodule "template-vue3-pcweb-starter"]
-	path = template-vue3-pcweb-starter
-	url = https://github.com/MatrixCross/Vue3-PCWeb-Starter.git
 [submodule "template-weapp-starter"]
 	path = template-weapp-starter
 	url = https://github.com/MatrixCross/Weapp-Starter.git
@@ -16,6 +13,9 @@
 [submodule "template-vue3-crx-starter"]
 	path = template-vue3-crx-starter
 	url = https://github.com/Wyatex/vue3-crx-starter.git
-[submodule "template-vue3-h5web-vant-starter"]
-	path = template-vue3-h5web-vant-starter
-	url = https://github.com/MatrixCross/Vue3-H5Web-Vant-Starter.git
+[submodule "template-vue3-pcweb-naiveui-starter"]
+	path = template-vue3-pcweb-naiveui-starter
+	url = https://github.com/MatrixCross/Vue3-PCWeb-Starter.git
+[submodule "template-vue3-h5web-varlet-starter"]
+	path = template-vue3-h5web-varlet-starter
+	url = https://github.com/MatrixCross/Vue3-H5Web-Varlet-Starter.git
