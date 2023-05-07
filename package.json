@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "release": "bumpp",
+    "init": "git submodule update --init",
     "update": "git submodule update --remote"
   },
   "bin": {
