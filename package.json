@@ -1,6 +1,6 @@
 {
   "name": "create-matrix-starter",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "快速创建项目初始模板cli",
   "main": "index.js",
   "type": "module",
@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "release": "bumpp",
+    "init": "git submodule update --init",
     "update": "git submodule update --remote"
   },
   "bin": {
