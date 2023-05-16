@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url'
 import minimist from 'minimist'
 import prompts from 'prompts'
 import dayjs from 'dayjs'
-import { reset, blue, lightBlue, cyan, yellow, red, green } from 'kolorist'
+import { reset, blue, lightBlue, cyan, yellow, red, green, lightRed } from 'kolorist'
 
 // Avoids autoconversion to number of the project name by defining that the args
 // non associated with an option ( _ ) needs to be parsed as a string.
@@ -42,6 +42,17 @@ const FRAMEWORKS = [
         name: 'Uniapp-vkUview',
         color: yellow,
         dir: 'vue3-uniapp-starter',
+      },
+    ],
+  },
+  {
+    name: 'vue2',
+    color: lightRed,
+    variants: [
+      {
+        name: 'Vue2.7-PcWeb-Elementui',
+        color: lightBlue,
+        dir: 'vue2.7-pcweb-element-starter',
       },
     ],
   },
