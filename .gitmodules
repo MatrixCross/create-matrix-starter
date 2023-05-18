@@ -22,3 +22,6 @@
 [submodule "template-vue2.7-pcweb-element-starter"]
 	path = template-vue2.7-pcweb-element-starter
 	url = https://github.com/MatrixCross/Vue2.7-PCWeb-Element-Starter.git
+[submodule "template-vue3-pcweb-tdesign-starter"]
+	path = template-vue3-pcweb-tdesign-starter
+	url = https://github.com/MatrixCross/Vue3-PCWeb-Tdesign-Starter.git
