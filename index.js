@@ -224,13 +224,18 @@ async function init() {
   if (root !== cwd) {
     console.log(`  cd ${path.relative(cwd, root)}`)
   }
+  console.log('  git init (可选，git hook依赖git仓库)')
   switch (pkgManager) {
     case 'yarn':
       console.log('  yarn')
       console.log('  yarn dev')
       break
+    case 'pnpm':
+      console.log('  pnpm i')
+      console.log('  pnpm dev')
+      break
     default:
-      console.log(`  ${pkgManager} install`)
+      console.log(`  ${pkgManager} i`)
       console.log(`  ${pkgManager} run dev`)
       break
   }
