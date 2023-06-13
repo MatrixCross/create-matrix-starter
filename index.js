@@ -24,9 +24,19 @@ const FRAMEWORKS = [
     color: green,
     variants: [
       {
-        name: 'PcWeb-NaiveUI',
+        name: 'PCWeb-TDesign',
+        color: lightBlue,
+        dir: 'vue3-pcweb-tdesign-starter',
+      },
+      {
+        name: 'PCWeb-NaiveUI',
         color: lightBlue,
         dir: 'vue3-pcweb-naiveui-starter',
+      },
+      {
+        name: 'H5Web-Vant',
+        color: lightBlue,
+        dir: 'vue3-h5web-vant-starter',
       },
       {
         name: 'H5Web-VarletUI',
