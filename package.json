@@ -28,12 +28,13 @@
     "node": "^14.18.0 || >=16.0.0"
   },
   "dependencies": {
-    "dayjs": "^1.11.7",
+    "create-matrix-starter": "link:",
+    "dayjs": "^1.11.8",
     "kolorist": "^1.8.0",
     "minimist": "^1.2.8",
     "prompts": "^2.4.2"
   },
   "devDependencies": {
-    "bumpp": "^9.1.0"
+    "bumpp": "^9.1.1"
   }
 }
