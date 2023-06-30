@@ -25,3 +25,6 @@
 [submodule "template-vue3-pcweb-tdesign-starter"]
 	path = template-vue3-pcweb-tdesign-starter
 	url = https://github.com/MatrixCross/Vue3-PCWeb-Tdesign-Starter.git
+[submodule "template-vue3-pcweb-soybean-admin"]
+	path = template-vue3-pcweb-soybean-admin
+	url = https://github.com/MatrixCross/soybean-admin.git

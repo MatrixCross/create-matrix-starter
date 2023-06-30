@@ -24,7 +24,12 @@ const FRAMEWORKS = [
     color: green,
     variants: [
       {
-        name: 'PCWeb-TDesign',
+        name: 'PCWeb-Soybean-Admin(推荐)',
+        color: lightBlue,
+        dir: 'vue3-pcweb-soybean-admin',
+      },
+      {
+        name: 'PCWeb-TDesign(推荐)',
         color: lightBlue,
         dir: 'vue3-pcweb-tdesign-starter',
       },
