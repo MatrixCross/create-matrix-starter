@@ -69,6 +69,11 @@ const FRAMEWORKS = [
         color: lightBlue,
         dir: 'vue2.7-pcweb-element-starter',
       },
+      {
+        name: 'Vue2-Uniapp-Uview',
+        color: green,
+        dir: 'vue2-uniapp-starter',
+      },
     ],
   },
   {

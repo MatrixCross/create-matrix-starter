@@ -28,3 +28,6 @@
 [submodule "template-vue3-pcweb-soybean-admin"]
 	path = template-vue3-pcweb-soybean-admin
 	url = https://github.com/MatrixCross/soybean-admin.git
+[submodule "template-vue2-uniapp-starter"]
+	path = template-vue2-uniapp-starter
+	url = https://github.com/MatrixCross/Vue2-Uniapp-Starter.git
