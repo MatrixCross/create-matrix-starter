@@ -31,3 +31,9 @@
 [submodule "template-vue2-uniapp-starter"]
 	path = template-vue2-uniapp-starter
 	url = https://github.com/MatrixCross/Vue2-Uniapp-Starter.git
+[submodule "template-lib-unbuild-starter"]
+	path = template-lib-unbuild-starter
+	url = https://github.com/MatrixCross/Lib-Starter-Unbuild.git
+[submodule "template-vue3-taro-starter"]
+	path = template-vue3-taro-starter
+	url = https://github.com/MatrixCross/taro-vue3-starter.git

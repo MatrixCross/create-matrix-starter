@@ -6,7 +6,16 @@ import { fileURLToPath } from 'node:url'
 import minimist from 'minimist'
 import prompts from 'prompts'
 import dayjs from 'dayjs'
-import { reset, blue, lightBlue, cyan, yellow, red, green, lightRed } from 'kolorist'
+import {
+  reset,
+  blue,
+  lightBlue,
+  cyan,
+  yellow,
+  red,
+  green,
+  lightRed,
+} from 'kolorist'
 
 // Avoids autoconversion to number of the project name by defining that the args
 // non associated with an option ( _ ) needs to be parsed as a string.
@@ -17,7 +26,18 @@ const FRAMEWORKS = [
   {
     name: 'lib',
     color: red,
-    dir: 'lib-rollup-starter',
+    variants: [
+      {
+        name: 'unbuild(推荐)',
+        color: lightBlue,
+        dir: 'lib-unbuild-starter',
+      },
+      {
+        name: 'rollup',
+        color: lightRed,
+        dir: 'lib-rollup-starter',
+      },
+    ],
   },
   {
     name: 'vue3',
@@ -55,6 +75,11 @@ const FRAMEWORKS = [
       },
       {
         name: 'Uniapp-vkUview',
+        color: yellow,
+        dir: 'vue3-uniapp-starter',
+      },
+      {
+        name: 'Taro-NutUI',
         color: yellow,
         dir: 'vue3-uniapp-starter',
       },
@@ -244,7 +269,7 @@ async function init() {
   if (root !== cwd) {
     console.log(`  cd ${path.relative(cwd, root)}`)
   }
-  console.log('  git init (可选，git hook依赖git仓库)')
+  console.log('  git init')
   switch (pkgManager) {
     case 'yarn':
       console.log('  yarn')
