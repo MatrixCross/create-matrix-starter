@@ -81,7 +81,7 @@ const FRAMEWORKS = [
       {
         name: 'Taro-NutUI',
         color: yellow,
-        dir: 'vue3-uniapp-starter',
+        dir: 'vue3-taro-starter',
       },
     ],
   },
