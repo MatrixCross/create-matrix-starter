@@ -9,12 +9,15 @@ import dayjs from 'dayjs'
 import {
   reset,
   blue,
-  lightBlue,
   cyan,
+  lightBlue,
+  lightCyan,
+  lightYellow,
+  lightGreen,
+  lightRed,
   yellow,
   red,
   green,
-  lightRed,
 } from 'kolorist'
 
 // Avoids autoconversion to number of the project name by defining that the args
@@ -98,6 +101,22 @@ const FRAMEWORKS = [
         name: 'Vue2-Uniapp-Uview',
         color: green,
         dir: 'vue2-uniapp-starter',
+      },
+    ],
+  },
+  {
+    name: 'react',
+    color: lightCyan,
+    variants: [
+      {
+        name: 'React-Soybean-Admin',
+        color: lightYellow,
+        dir: 'react-soybean-admin',
+      },
+      {
+        name: 'React-Crx-Starter',
+        color: lightGreen,
+        dir: 'react-crx-starter',
       },
     ],
   },
@@ -265,7 +284,7 @@ async function init() {
   const pkgInfo = pkgFromUserAgent(process.env.npm_config_user_agent)
   const pkgManager = pkgInfo ? pkgInfo.name : 'npm'
 
-  console.log(`\nDone. Now run:\n`)
+  console.log(`\搭建完成，请执行下面指令:\n`)
   if (root !== cwd) {
     console.log(`  cd ${path.relative(cwd, root)}`)
   }

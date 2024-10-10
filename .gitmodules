@@ -37,3 +37,9 @@
 [submodule "template-vue3-taro-starter"]
 	path = template-vue3-taro-starter
 	url = https://github.com/MatrixCross/taro-vue3-starter.git
+[submodule "template-react-soybean-admin"]
+	path = template-react-soybean-admin
+	url = https://github.com/MatrixCross/react-soybean-admin.git
+[submodule "template-react-crx-starter"]
+	path = template-react-crx-starter
+	url = https://github.com/MatrixCross/React-Crx-Starter.git
