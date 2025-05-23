@@ -1,6 +1,6 @@
 {
   "name": "create-matrix-starter",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "description": "快速创建项目初始模板cli",
   "main": "index.js",
   "type": "module",
