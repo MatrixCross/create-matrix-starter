@@ -77,7 +77,7 @@ const FRAMEWORKS = [
         dir: 'vue3-crx-starter',
       },
       {
-        name: 'Uniapp-vkUview',
+        name: 'Uniapp-uview-plus',
         color: yellow,
         dir: 'vue3-uniapp-starter',
       },
@@ -284,7 +284,7 @@ async function init() {
   pkg.name = packageName || getProjectName()
   pkg.version = version
 
-  write('package.json', JSON.stringify(pkg, null, 2))
+  write('package.json', JSON.stringify(pkg, null, 2) + '\n')
 
   const pkgInfo = pkgFromUserAgent(process.env.npm_config_user_agent)
   const pkgManager = pkgInfo ? pkgInfo.name : 'npm'
