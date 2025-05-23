@@ -93,9 +93,14 @@ const FRAMEWORKS = [
     color: lightRed,
     variants: [
       {
-        name: 'Vue2.7-PcWeb-Elementui',
+        name: 'Vue2.7-PCWeb-Elementui',
         color: lightBlue,
         dir: 'vue2.7-pcweb-element-starter',
+      },
+      {
+        name: 'Vue2.7-PCWeb-TDesign',
+        color: lightBlue,
+        dir: 'vue2.7-pcweb-tdesign-starter',
       },
       {
         name: 'Vue2-Uniapp-Uview',
@@ -132,7 +137,7 @@ const TEMPLATES = FRAMEWORKS.map(
 ).reduce((a, b) => a.concat(b), [])
 
 const renameFiles = {
-  _gitignore: '.gitignore',
+  // _gitignore: '.gitignore',
 }
 
 async function init() {

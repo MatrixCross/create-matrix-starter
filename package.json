@@ -6,7 +6,9 @@
   "type": "module",
   "files": [
     "index.js",
-    "template-*"
+    "template-*",
+    "template-*/.gitignore",
+    "template-*/.npmrc"
   ],
   "scripts": {
     "release": "bumpp",

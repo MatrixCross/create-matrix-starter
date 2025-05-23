@@ -43,3 +43,6 @@
 [submodule "template-react-crx-starter"]
 	path = template-react-crx-starter
 	url = https://github.com/MatrixCross/React-Crx-Starter.git
+[submodule "template-vue2.7-pcweb-tdesign-starter"]
+	path = template-vue2.7-pcweb-tdesign-starter
+	url = https://github.com/MatrixCross/Vue2.7-PCWeb-Tdesign-Starter.git
